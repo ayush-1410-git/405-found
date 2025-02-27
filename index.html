@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeCars - A Cars Serving Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="#">WeCars</a></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rent">Customers</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#ride">Our Past</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Sign In</a></li>
+                <li><img src="img/user.png" width="40px" height="25px" alt="Profile"></li>
+                <!-- Add Theme Toggle -->
+                <li class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider"></div>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Image -->
+    <section id="hero">
+        <img src="img/hero.png" alt="Luxury Car">
+        <div class="hero-content">
+            <h1>Drive with Confidence</h1>
+            <p>Experience the best car services with WeCars. Book, ride, and enjoy!</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <section id="rent">
+        <h2>Maintain it via 3 working steps</h2>
+        
+        <div class="rent-cards">
+            <div>
+                <img src="img/location.png" alt="Choose Location">
+                <h4>Choose a location</h4>
+                <p>Select your location from where you want your car to be picked.</p>
+            </div>
+            
+            <div>
+                <h4>Pick-up date</h4>
+                <p>Specify the date and time you wish to pick up your car.</p>
+                <input type="date">
+            </div>
+            
+            <div>
+                <h4>Book your car</h4>
+                <p>Finally, book the slot for your car.</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modern Bento-Style Grid -->
+    <div class="bento-grid">
+        <div class="bento-item featured">
+            <i class="fas fa-car"></i>
+            <h3>Premium Car Selection</h3>
+            <p>Choose from our wide range of luxury and economy vehicles to suit your needs and budget.</p>
+        </div>
+        <div class="bento-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Convenient Locations</h3>
+            <p>Multiple pickup and drop-off points across the city.</p>
+        </div>
+        <div class="bento-item tall">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Safety First</h3>
+            <p>All our vehicles undergo rigorous safety checks and sanitization protocols.</p>
+        </div>
+        <div class="bento-item">
+            <i class="fas fa-dollar-sign"></i>
+            <h3>Best Pricing</h3>
+            <p>Competitive rates with no hidden fees.</p>
+        </div>
+        <div class="bento-item wide">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 Customer Support</h3>
+            <p>Our dedicated team is always available to assist you with any queries or concerns.</p>
+        </div>
+    </div>
+
+    <section id="service">
+        <h2>Feel the best experience with our deals</h2>
+        <ul>
+            <li class="fade-in">
+                <i class="fas fa-wallet"></i>
+                <h4>Deals for every budget</h4>
+                <p>From economy cars to luxury vehicles, we have services for everyone.</p>
+            </li>
+            <li class="fade-in">
+                <i class="fas fa-tag"></i>
+                <h4>Best price guarantee</h4>
+                <p>Get competitive rates and book with confidence.</p>
+            </li>
+            <li class="fade-in">
+                <i class="fas fa-headset"></i>
+                <h4>Support 24/7</h4>
+                <p>Our team is available 24/7 to assist you.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us">
+        <h2>Why Choose WeCars?</h2>
+        <ul>
+            <li class="slide-in-left">🚗 Hassle-free booking process</li>
+            <li class="slide-in-left">🧼 Safe and sanitized vehicles</li>
+            <li class="slide-in-left">💰 Affordable pricing with no hidden charges</li>
+            <li class="slide-in-left">☎️ Expert customer support</li>
+        </ul>
+    </section>
+
+    <section id="ride">
+        <h2>We ensure the best customer experience</h2>
+        <ul>
+            <li class="scale-in">🏆 Competitive pricing</li>
+            <li class="scale-in">💳 Flexible Payment Plans</li>
+            <li class="scale-in">🚦 Roadside Assistance 24/7</li>
+        </ul>
+    </section>
+
+    <!-- Parallax Section -->
+    <section class="parallax-section">
+        <div class="parallax-bg" style="background-image: url('img/parallax-bg.jpg');"></div>
+        <div class="parallax-content">
+            <h2>Premium Car Experience</h2>
+            <p>Discover the luxury of driving with WeCars premium fleet.</p>
+            <button>Explore Premium Cars</button>
+        </div>
+    </section>
+
+    <!-- Testimonials Section with Images -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-container">
+            <div class="slide-in-left">
+                <img src="img/customer1.png" alt="Customer 1">
+                <p>"WeCars made my travel easy and stress-free!" - John D.</p>
+            </div>
+            
+            <div class="slide-in-right">
+                <img src="img/customer2.png" alt="Customer 2">
+                <p>"Great service, affordable prices, and excellent support!" - Sarah W.</p>
+            </div>
+            
+            <div class="fade-in">
+                <img src="img/customer3.png" alt="Customer 3">
+                <p>"Highly recommended! Booking was seamless and hassle-free." - Alex T.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Download the free WeCars app</h2>
+        <img src="img/app-download.png" alt="WeCars App">
+        <p>Manage bookings, find deals, and access 24/7 support.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>About WeCars</h3>
+                <p>Your trusted car service provider for easy and efficient vehicle management.</p>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p>Email: support@wecars.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <p>Copyright © 2024 WeCars. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <!-- Add missing JavaScript for animations and theme toggle -->
+    <script>
+        // Theme toggle functionality
+        const themeSwitch = document.getElementById('checkbox');
+        const currentTheme = localStorage.getItem('theme');
+
+        if (currentTheme) {
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            if (currentTheme === 'dark') {
+                themeSwitch.checked = true;
+            }
+        }
+
+        themeSwitch.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+
+        // Scroll animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .scale-in');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            fadeElements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+</html>
